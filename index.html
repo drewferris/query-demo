@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>assessment</title>
+    <meta name="description" content="assessment" />
+    <meta name="author" content="Drew Ferris" />
+    <script type="text/javascript" src="script.js" async></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="row">
+      <div class="column half">
+        <p>Query: <input type="text" value="Manchester United" /></p>
+        <p>1. How is the entity on the right panel relevant to the query?</p>
+        <div id='q1_radios'>
+          <div>
+            <input type="radio" id="excellent" name="q1_radios" value="100" />
+            <label for="excellent">Excellent</label>
+          </div>
+
+          <div>
+            <input type="radio" id="good" name="q1_radios" value="50" />
+            <label for="good">Good</label>
+          </div>
+
+          <div>
+            <input type="radio" id="poor" name="q1_radios" value="0" />
+            <label for="poor">Poor</label>
+          </div>
+        </div>
+
+        <div id="q2_radios" style="display: none;">
+          <p>2. Which parts of content are relevant to the query?</p>
+
+          <div>
+            <input type="radio" id="image" value="50" />
+            <label for="image">Image</label>
+          </div>
+
+          <div>
+            <input type="radio" id="name" value="50" />
+            <label for="name">Name</label>
+          </div>
+
+          <div>
+            <input type="radio" id="description" value="25" />
+            <label for="description">Description</label>
+          </div>
+        </div>
+        <div class="row">
+          <button id="submit">Submit</button>
+          <button id="skip">Skip</button>
+        </div>
+      </div>
+      <div class="row half">
+        <div class="column">
+          <div>
+            <p>Name: <input type="text" value="Manchester United" /></p>
+          </div>
+          <p>Description:</p>
+          <p>
+            Manchester United Football Club is a professional football club
+            based in Old Trafford, Greater Manchester, England, that competes in
+            the Premier League, the top flight of English football. Nicknamed
+            "the Red Devils", the club was founded as Newton Heath LYR Football
+            Club in 1878, changed its name to Manchester United in 1902 and
+            moved to its current stadium, Old Trafford, in 1910. Manchester
+            United have won more trophies than any other club in English
+            football,[5][6] with a record 20 League titles, 12 FA Cups, five
+            League Cups and a record 21 FA Community Shields. United have also
+            won three UEFA Champions Leagues, one UEFA Europa League, one UEFA
+            Cup Winners' Cup, one UEFA Super Cup, one Intercontinental Cup and
+            one FIFA Club World Cup. In 1998–99, the club became the first in
+            the history of English football to achieve the continental European
+            treble.[7] By winning the UEFA Europa League in 2016–17, they became
+            one of five clubs to have won all three main UEFA club competitions.
+            The 1958 Munich air disaster claimed the lives of eight players. In
+            1968, under the management of Matt Busby, Manchester United became
+            the first English football club to win the European Cup. Alex
+            Ferguson won 38 trophies as manager, including 13 Premier League
+            titles, 5 FA Cups and 2 UEFA Champions Leagues, between 1986 and
+            2013,[8][9][10] when he announced his retirement. Manchester United
+            was the highest-earning football club in the world for 2016–17, with
+            an annual revenue of €676.3 million,[11] and the world's third most
+            valuable football club in 2019, valued at £3.15 billion ($3.81
+            billion).[12] As of June 2015, it is the world's most valuable
+            football brand, estimated to be worth $1.2 billion.[13][14] After
+            being floated on the London Stock Exchange in 1991, the club was
+            purchased by Malcolm Glazer in May 2005 in a deal valuing the club
+            at almost £800 million, after which the company was taken private
+            again, before going public once more in August 2012, when they made
+            an initial public offering on the New York Stock Exchange.
+            Manchester United is one of the most widely supported football clubs
+            in the world,[15][16] and has rivalries with Liverpool, Manchester
+            City, Arsenal and Leeds United.
+          </p>
+        </div>
+        <div>
+          <img src="https://fakeimg.pl/150x300/" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
